@@ -74,3 +74,65 @@ There is a need for an automated, cost-effective solution that can summarize doc
 ---
 
 ## 📂 Repository Structure
+anadoc-pdf-summarizer-aws/
+├── README.md
+├── lambda/
+│ ├── lambda_function.py
+│ └── requirements.txt
+├── report/
+│ └── AnaDoc_Cloud_Architecture_Report.pdf
+├── sample-input/
+│ └── sample.pdf
+├── sample-output/
+│ └── sample_summary.txt
+└── screenshots/
+├── s3-bucket.png
+├── lambda-function.png
+└── cloudwatch-logs.png
+
+---
+
+## ✅ Results
+- Automatically extracts text from uploaded PDFs
+- Generates summary within seconds
+- Fully automated and serverless workflow
+- Works efficiently on AWS Free Tier
+
+---
+
+## 👍 Advantages
+- No server management required
+- Cost-effective (Free Tier)
+- Scalable and reliable
+- Easy monitoring via CloudWatch
+
+---
+
+## ⚠️ Limitations
+- Works only with text-based PDFs
+- Summarization is keyword-based
+- Not semantic or AI-based summarization
+
+---
+
+## 🚀 Future Enhancements
+- OCR support using Amazon Textract
+- AI-based summarization using Amazon Bedrock
+- Web interface for uploads and results
+- Store summaries in DynamoDB
+
+---
+
+## 🏁 Conclusion
+AnaDoc demonstrates how **serverless cloud computing** can be used to build an automated PDF summarization system efficiently and cost-effectively.  
+It highlights the power of AWS Free Tier services for real-world document processing applications.
+
+---
+
+## 👩‍💻 Authors
+- **K. Sai Vibhas**
+- **D. Lakshmi Aneela**
+- **B.K.Pranavi**
+- **P.Prudhvi Sai**
+B.Tech – Information Technology
+
